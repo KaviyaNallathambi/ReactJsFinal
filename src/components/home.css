@@ -1,0 +1,62 @@
+/* Ensure container doesn't overflow horizontally */
+.container-fluid {
+    overflow-x: hidden;
+  }
+  
+  /* Set smaller font size for tables */
+  .table {
+    font-size: 0.8rem; /* You can adjust this to fit your needs */
+  }
+  
+  /* Set font size for buttons */
+  .btn {
+    font-size: 12px; /* Small but readable font size */
+    padding: 6px 12px; /* Adjust padding to make buttons more compact */
+  }
+  
+  /* Sidebar styling */
+  .sidebar {
+    background-color: #0d3863;
+    color: white;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 20px;
+  }
+  
+  /* Profile image inside Sidebar */
+  .sidebar img {
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+  }
+  
+  /* Styling for buttons inside Sidebar */
+  .sidebar button {
+    margin-top: 20px;
+  }
+  
+  /* Small font for text */
+  .small-font {
+    font-size: 12px; /* Adjust this value to your preference */
+  }
+  
+  /* Custom Table Style */
+  .table-custom {
+    font-size: 14px; /* Adjust table font size */
+    max-width: 100%; /* Ensure table fits the container */
+  }
+  
+  .table-custom th, .table-custom td {
+    padding: 8px; /* Adjust padding for better readability */
+    text-align: left; /* Optional: Align text to the left */
+  }
+  
+  /* Custom Button Size */
+  .custom-btn-size {
+    padding: 6px 12px; /* Adjust padding to make buttons smaller */
+    font-size: 12px;   /* Smaller font size */
+    border-radius: 4px; /* Optional: Rounded corners */
+  }
+  
