@@ -1,5 +1,4 @@
 import React from 'react';
-
 const BeneficiaryTable = () => {
   const beneficiaries = [
     { id: 1, name: 'Vaishnavi', relationship: 'Sister', dob: '1988-10-04', status: 'Active' },
@@ -8,7 +7,7 @@ const BeneficiaryTable = () => {
   ];
 
   return (
-    <div className="table-responsive mt-0 mb-0">
+    <div className="table-responsive mt-3 mb-3">
       
       <table className="table table-bordered bg-gray">
         <thead className="bg-light">

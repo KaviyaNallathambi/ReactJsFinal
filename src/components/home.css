@@ -5,20 +5,21 @@
   
   /* Set smaller font size for tables */
   .table {
-    font-size: 0.8rem; /* You can adjust this to fit your needs */
+    font-size: 0.8rem;
+
   }
   
   /* Set font size for buttons */
   .btn {
-    font-size: 12px; /* Small but readable font size */
-    padding: 6px 12px; /* Adjust padding to make buttons more compact */
+    font-size: 10px; 
+    padding: 6px 8px; 
   }
   
   /* Sidebar styling */
   .sidebar {
     background-color: #0d3863;
     color: white;
-    height: 100vh;
+    height: 100%;
     position: fixed;
     top: 0;
     left: 0;
@@ -39,24 +40,24 @@
   
   /* Small font for text */
   .small-font {
-    font-size: 12px; /* Adjust this value to your preference */
+    font-size: 14px; 
+    margin-bottom: 10px;/* Adjust this value to your preference */
   }
   
   /* Custom Table Style */
   .table-custom {
-    font-size: 14px; /* Adjust table font size */
+    font-size: 16px; /* Adjust table font size */
     max-width: 100%; /* Ensure table fits the container */
   }
   
   .table-custom th, .table-custom td {
-    padding: 8px; /* Adjust padding for better readability */
+    padding: 20px; /* Adjust padding for better readability */
     text-align: left; /* Optional: Align text to the left */
   }
   
-  /* Custom Button Size */
-  .custom-btn-size {
-    padding: 6px 12px; /* Adjust padding to make buttons smaller */
-    font-size: 12px;   /* Smaller font size */
-    border-radius: 4px; /* Optional: Rounded corners */
+ 
+  .btn {
+    margin: 0 !important;
   }
+  
   

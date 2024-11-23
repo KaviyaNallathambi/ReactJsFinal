@@ -15,8 +15,8 @@ const BeneficiaryForm = () => {
   };
 
   return (
-    <div className="mt-0">
-      <h6>Add New Beneficiary</h6>
+    <div className="mt-1">
+      <h5>Add New Beneficiary</h5>
       <form>
         <div>
           <label className="small-font">S. No</label>
